@@ -1,5 +1,5 @@
 {
-  "name": "asgn1-express-portfolio",
+  "name": "asgn2_passport_auth",
   "description": "",
   "main": "server.js",
   "authors": [
@@ -11,7 +11,7 @@
     "Express",
     "Ejs"
   ],
-  "homepage": "https://github.com/jishnusundar/asgn1_express_portfolio",
+  "homepage": "https://github.com/jishnusundar/asgn2_passport_auth",
   "ignore": [
     "**/.*",
     "node_modules",
