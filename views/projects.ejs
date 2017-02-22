@@ -1,0 +1,148 @@
+<!--Filename: projects.ejs
+Author name: Jishnu Sundar
+Website Name: portoflioassgn-js.herokuapp.com
+Description: View for the Projects page-->
+<!DOCTYPE html>
+<html lang="en">
+
+<% include ../views/partials/head %>
+
+
+  <body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+<% include ../views/partials/sidebar %>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">My projects
+                    <small>Software Engineering Technology</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="/Assets/images/Encryption.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Text Encryption and Compression</h3>
+                <h4>Runtime: .NET (C#), Semester: 4</h4>
+                <p>Worked with a team of 4 members on creating a GUI application to encrypt, compress and decrypt very long text files following Huffman algorithm using Dictionary structure </p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="/Assets/images/ecommerce.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>E-Commerce web application development</h3>
+                <h4>Runtime: ASP.NET (C#), Semester: 3</h4>
+                <p>Worked with a team of 3 members on building and hosting an online shopping portal using Microsoft ASP.NET in C# and Microsoft SQL Server</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Three -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="/Assets/images/web.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Web designing </h3>
+                <h4>Runtime: Basic HTML, CSS and Javascript; Semester: 2</h4>
+                <p>Worked with a partner on designing and hosting website for a real estate company using HTML and CSS</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Four -->
+        <div class="row">
+
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="/Assets/images/system.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Systems analysis and design (documentation only)</h3>
+                <h4>Documentation tools: MS Word, MS Visio ; Designing algorithm: UML</h4>
+                <p>Worked with a team of 4 members on planning, designing, and documenting an application system for a movie theatre</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Five -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="/Assets/images/db.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Database Designing</h3>
+                <h4>DB engine: IBM DB2, Semester: 1</h4>
+                <p>Worked with a team of 4 members in designing a database for a musical record keeping portal using IBM DB2</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Centennial College 2017</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+ 
+    <% include ../views/partials/scriptPartials %>
+  </body>
+</html>

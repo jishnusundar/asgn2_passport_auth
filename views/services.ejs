@@ -1,0 +1,51 @@
+<!--Filename: services.ejs
+Author name: Jishnu Sundar
+Website Name: portoflioassgn-js.herokuapp.com
+Description: View for the Services page-->
+<!DOCTYPE html>
+<html lang="en">
+
+<% include ../views/partials/head %>
+
+
+  <body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+<% include ../views/partials/sidebar %>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+	<div class="row text-center"><br>
+        <div class="col-md-4 col-sm-4">
+            <img src="/Assets/images/programmer.jpg" alt="" class="img-circle img-thumbnail">
+            <h3>Desktop Application Development</h3>
+            <p>I create desktop applications (Console and forms) in C#.NET and Java. I can deliver efficient utility programs for your desktop.</p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <img src="/Assets/images/testing.png" alt="" class="img-circle img-thumbnail">
+            <h3>Application Testing</h3>
+            <p>I have experience in application debugging, testing and recreating production issues. I could be the one if you want an experienced hand for testing your application.</p></p>
+        </div>
+        <div class="col-md-4 col-sm-4">
+            <img src="/Assets/images/webDevelop.jpg" alt="" class="img-circle img-thumbnail">
+            <h3>Web Application Development</h3>
+            <p>Experienced in e-commerce web application development. I have a good exposure in managing the back-end side of web apps.</p>
+        </div>
+	</div>
+</div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+ 
+    <% include ../views/partials/scriptPartials %>
+  </body>
+</html>

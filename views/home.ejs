@@ -1,0 +1,43 @@
+<!--Filename: home.ejs
+Author name: Jishnu Sundar
+Website Name: portoflioassgn-js.herokuapp.com
+Description: View for the home page-->
+<!DOCTYPE html>
+<html lang="en">
+
+<% include ../views/partials/head %>
+   
+  <body background="/Assets/images/Home.jpg">
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+<% include ../views/partials/sidebar %>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h1><%= title %></h1>
+
+                       <p><%= mainContent %></p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+ 
+    <% include ../views/partials/scriptPartials %>
+  </body>
+</html>

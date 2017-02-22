@@ -1,0 +1,36 @@
+<!--Filename: head.ejs
+Author name: Jishnu Sundar
+Website Name: portoflioassgn-js.herokuapp.com
+Description: Partial for CSS links-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" Content="width=device-width, initial-scale=1">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/Scripts/lib/bootstrap/dist/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/Scripts/lib/bootstrap/dist/css/bootstrap-theme.css' />
+
+<% if(title=="Hi there!") { %>
+        <link rel='stylesheet' href='/Content/home.css' />
+        <link rel='stylesheet' href='/Content/homeSidebar.css' />
+<% } else if (title=="Projects") { %>
+        <link rel='stylesheet' href='/Content/projectsView.css' />
+        <link rel='stylesheet' href='/Content/sidebar.css' />
+<% } else if(title=="Services") { %>
+        <link rel='stylesheet' href='/Content/sidebar.css' />
+<% } else if(title=="Who am I?") { %>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link rel='stylesheet' href='/Content/sidebar.css' />
+        <link rel='stylesheet' href='/Scripts/lib/bootstrap/dist/css/bootstrap.min.css' />
+        <link rel='stylesheet' href='/Scripts/lib/font-awesome/css/font-awesome.css' />
+        <link id="theme-style" rel="stylesheet" href="/Content/aboutTheme.css">
+<% } else if(title=="Reach Me") { %>
+    <link rel='stylesheet' href='/Content/projectsView.css' />
+    <link rel='stylesheet' href='/Content/sidebar.css' />
+    <link rel='stylesheet' href='/Content/contact.css' />
+<% } %>
+
+</head>
+
+
+    

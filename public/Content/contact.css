@@ -1,0 +1,12 @@
+/*Filename: contact.css
+Author name: Jishnu Sundar
+Website Name: portoflioassgn-js.herokuapp.com
+Description: Styling for the Contact Page*/
+.first-box{padding:10px;background:#9C0;}
+.second-box{padding:10px; background:#39F;}
+.third-box{padding:10px;background:#F66;}
+.fourth-box{padding:10px;background:#6CC;}
+
+a{display: block;}
+h3,p {color: black;}
+.glyphicon{color: black;}

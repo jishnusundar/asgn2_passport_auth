@@ -1,0 +1,57 @@
+<!--Filename: contact.ejs
+Author name: Jishnu Sundar
+Website Name: portoflioassgn-js.herokuapp.com
+Description: View for the Contact page-->
+<!DOCTYPE html>
+<html lang="en">
+
+<% include ../views/partials/head %>
+
+
+  <body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+<% include ../views/partials/sidebar %>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+<h1>Contact Channels</h1><br>
+	<div class="row text-center">
+		<div class="col-sm-3 col-xs-6 first-box">
+        <h1><span class="glyphicon glyphicon-earphone"></span></h1>
+        <h3>Phone</h3>
+        <p>6477826210</p><br>
+    </div>
+   <a href="https://www.linkedin.com/in/jishnusundar/"><div class="col-sm-3 col-xs-6 second-box">
+        <h1><span class="glyphicon glyphicon-home"></span></h1>
+        <h3>LinkedIn</h3>
+        <p>linkedin.com/in/jishnusundar</p><br>
+    </div></a> 
+    <a href="mailto:jishnusundar@gmail.com"><div class="col-sm-3 col-xs-6 third-box">
+        <h1><span class="glyphicon glyphicon-send"></span></h1>
+        <h3>E-mail</h3>
+        <p>jishnusundar@gmail.com</p><br>
+    </div></a>
+    <a href="https://www.facebook.com/jishnusundar"><div class="col-sm-3 col-xs-6 fourth-box">
+    	<h1><span class="glyphicon glyphicon-leaf"></span></h1>
+        <h3>Facebook</h3>
+        <p>facebook.com/jishnusundar</p><br>
+    </div></a>
+	</div>
+</div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+ 
+    <% include ../views/partials/scriptPartials %>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "name": "asgn1-express-portfolio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">3.5.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "express-favicon": "^2.0.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jishnusundar/asgn1_express_portfolio.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "Ejs"
+  ],
+  "author": "Jishnu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jishnusundar/asgn1_express_portfolio/issues"
+  },
+  "homepage": "https://github.com/jishnusundar/asgn1_express_portfolio#readme"
+}
