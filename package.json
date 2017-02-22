@@ -11,12 +11,17 @@
   },
   "dependencies": {
     "body-parser": "~1.15.2",
+    "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
     "ejs": "~2.5.2",
     "express": "~4.14.0",
     "express-favicon": "^2.0.0",
+    "express-session": "^1.15.1",
     "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
     "serve-favicon": "~2.3.0"
   },
   "description": "This assignment uses passport module for registering and authenticating users into the system",
@@ -36,5 +41,18 @@
     "url": "https://github.com/jishnusundar/asgn2_passport_auth/issues"
   },
   "homepage": "https://github.com/jishnusundar/asgn2_passport_auth#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/body-parser": "0.0.34",
+    "@types/bootstrap": "^3.3.32",
+    "@types/connect-flash": "0.0.31",
+    "@types/cookie-parser": "^1.3.30",
+    "@types/express": "^4.0.35",
+    "@types/express-session": "0.0.32",
+    "@types/jquery": "^2.0.40",
+    "@types/mongoose": "^4.7.6",
+    "@types/morgan": "^1.7.32",
+    "@types/passport": "^0.3.3",
+    "@types/passport-local": "^1.0.29",
+    "@types/passport-local-mongoose": "^4.0.8"
+  }
 }
