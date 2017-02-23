@@ -41,6 +41,10 @@
               </div>
 
               <button type="submit" class="btn btn-primary"><i class="fa fa-check-square-o"></i> Submit</button>
+              <% if(typeof title == "string" && title=="Contact Details") { %>
+              <a href="/contacts/delete/<%= contacts._id %>" class="btn btn-danger"> 
+              <i class="fa fa-trash-o"></i> Delete</a>
+              <% } %>
               <a href="/contacts" class="btn btn-warning"><i class="fa fa-undo"></i> Cancel</a>
             </form>
         </div>
