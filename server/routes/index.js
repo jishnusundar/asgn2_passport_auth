@@ -9,7 +9,7 @@ let UserModel = require('../models/users')
 let User = UserModel.User;
 
 //define the contacts model
-let contact = require('../models/contacts');
+//let contact = require('../models/contacts');
 
 //function to check if the user is authenticated
 function requireAuth(req,res,next) {
@@ -42,7 +42,7 @@ router.get('/login',(req, res, next) => {
 
 // POST /login - process the login
 router.post('/login', passport.authenticate('local', {
-successRedirect: '/contact',
+successRedirect: '/contacts',
 failureRedirect: '/login',
 failureFlash: true
 }));
@@ -104,7 +104,7 @@ res.redirect('/'); //redirect to home page
 /** ------------------------------- Routing for the 5 main pages -------------------------------*/
 
 /* GET projects page. */
-router.get('/projects', requireAuth,(req, res, next) => {
+router.get('/projects',(req, res, next) => {
   res.render('projects', { 
     title: 'Projects',
     displayName : req.user ? req.user.displayName : ''
