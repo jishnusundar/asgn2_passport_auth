@@ -32,7 +32,7 @@ router.get('/login',(req, res, next) => {
       title: 'Login',
       //games: '',
       messages: req.flash('loginMessage'),
-      //displayName: req.user ? req.user.displayName : ''
+       displayName : req.user ? req.user.displayName : ''
     });
     return;
   } else {
@@ -42,7 +42,7 @@ router.get('/login',(req, res, next) => {
 
 // POST /login - process the login
 router.post('/login', passport.authenticate('local', {
-successRedirect: '/contacts',
+successRedirect: '/contact',
 failureRedirect: '/login',
 failureFlash: true
 }));
@@ -58,7 +58,7 @@ if(!req.user) {
     title: 'Register',
   //games: '',
   messages: req.flash('registerMessage'),
-  //displayName : req.user ? req.user.displayName : ''
+  displayName : req.user ? req.user.displayName : ''
 });
 }
 });
@@ -137,7 +137,7 @@ router.get('/contact', (req, res, next) => {
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
-  let currentDate = new Date();
+
   res.render('home', { 
     title: 'Hi there!'  , 
     mainContent: 'My name is Jishnu and i\'ve been studying Software Engineering Technology for the last 2 years @ Centennial College. This website is my simple portfolio where most of my accomplishments and interests are posted. Check in to see!' ,
