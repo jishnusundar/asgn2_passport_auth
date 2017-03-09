@@ -1,3 +1,10 @@
+/*
+Filename: routes/index.js
+Author: Jishnu Sundar
+Student ID: 300819912
+Description: Includes routing for all the top level pages and login, logout and register functionalities
+*/
+
 //modules required for routing
 let express = require('express');
 let router = express.Router();

@@ -1,3 +1,8 @@
+/*
+Filename: app.js
+Author: Jishnu Sundar
+Description: Contains all the main configurations and modules of the web application
+*/
 // include all of our middleware
 let express = require('express');
 let path = require('path');

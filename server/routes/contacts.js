@@ -1,3 +1,9 @@
+/*
+Filename: routes/contacts.js
+Author: Jishnu Sundar
+Student ID: 300819912
+Description: Includes routing for all Secure area's functionalities
+*/
 //modules for routing
 let express = require('express');
 let router = express.Router();

@@ -1,5 +1,12 @@
 #!/usr/bin/env node
 
+/*
+Filename: server.js
+Author: Jishnu Sundar
+Student ID: 300819912
+Description: Contains all the top level  functionality for application to run
+*/
+
 /**
  * Module dependencies.
  */
